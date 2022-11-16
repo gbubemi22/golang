@@ -15,13 +15,20 @@ func main() {
   names := []string{"mario", "luigi", "yoshi", "peach"}
     
 
-  for i := 0; i < len(names); i++ {
-	fmt.Println(names[i])
-  }
+//   for i := 0; i < len(names); i++ {
+// 	fmt.Println(names[i])
+//   }
 
-for index, value := range names{
-	fmt.Printf("the position at index %v is %v \n", index, value)
+// for index, value := range names{
+// 	fmt.Printf("the position at index %v is %v \n", index, value)
+// }
+
+
+
+for _, value := range names{
+	fmt.Printf("the position at is %v \n", value)
 }
 
+fmt.Println(names)
  
 }
